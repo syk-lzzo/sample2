@@ -141,7 +141,7 @@ header a {
   color: #fff;
 }
 .content-inner {
-  width: 1140px;
+  /* width: 1140px; */
   margin: 0 auto;
   text-align: center;
 }
