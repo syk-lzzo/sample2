@@ -79,7 +79,7 @@ button {
   color: #000;
 }
 /* ヘッダーCSS */
-#header {
+.section-header {
   background: #44248c;
   padding: 50px 130px 110px 130px;
 }
@@ -109,7 +109,7 @@ header a {
 }
 
 /* Main */
-#main-top {
+.section-main-top {
   background: #44248c;
   margin-right: calc(50% - 50vw);
   margin-left: calc(50% - 50vw);
@@ -120,7 +120,7 @@ header a {
   z-index: -999;
   overflow: hidden;
 }
-#main-top img {
+.section-main-top img {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -149,49 +149,49 @@ header a {
   z-index: 1;
 }
 
-#l1 img {
+.layer.l1 img {
   width: 70px;
 }
-#l1 {
+.layer.l1 {
   top: -30px;
   left: 410px;
 }
-#l2 img {
+.layer.l2 img {
   width: 120px;
 }
-#l2 {
+.layer.l2 {
   top: -30px;
   left: 600px;
 }
-#l3 img {
+.layer.l3 img {
   width: 170px;
 }
-#l3 {
+.layer.l3 {
   top: 670px;
   left: -50px;
 }
-#l4 img {
+.layer.l4 img {
   width: 70px;
 }
-#l4 {
+.layer.l4 {
   top: 580px;
   left: 120px;
 }
-#l5 {
+.layer.l5 {
   top: 500px;
   left: 570px;
 }
-#l6 {
+.layer.l6 {
   top: -120px;
   left: 1150px;
 }
-#l7 {
+.layer.l7 {
   top: 540px;
   left: 1200px;
 }
 
 /* main-p */
-#main-p {
+.section-main-p {
   margin: 85px 0 130px 0;
   font-size: 22px;
 }
@@ -201,7 +201,7 @@ header a {
 }
 
 /* skills */
-#skills {
+.section-skills {
   margin-bottom: 140px;
 }
 .skills-inner {
@@ -216,7 +216,7 @@ header a {
 }
 
 /* experience */
-#experience {
+.section-experience {
   margin-bottom: 140px;
 }
 .experience-inner {
@@ -236,7 +236,7 @@ header a {
 }
 
 /* education */
-#education {
+.section-education {
   position: relative;
   margin-right: calc(50% - 50vw);
   margin-left: calc(50% - 50vw);
@@ -285,7 +285,7 @@ header a {
 }
 
 /* services */
-#services {
+.section-services {
   margin-bottom: 140px;
 }
 .services-inner {
@@ -309,7 +309,7 @@ header a {
 }
 
 /* portfolio */
-#portfolio {
+.section-portfolio {
   margin-bottom: 70px;
 }
 .portfolio {
@@ -380,7 +380,7 @@ header a {
   top: 640px;
   right: 200px;
 }
-#testimonials {
+.section-testimonials {
   background: #44248c;
   color: #fff;
   padding: 60px;
@@ -390,7 +390,7 @@ header a {
   padding-left: calc(50vw - 50%);
   position: relative;
 }
-#testimonials h3 {
+.section-testimonials h3 {
   margin-bottom: 10px;
 }
 .i-99 {
@@ -432,7 +432,7 @@ header a {
 }
 
 /* blogs */
-#blogs {
+.section-blogs {
   margin-bottom: 140px;
 }
 .blogs-inner {
@@ -465,7 +465,7 @@ header a {
 }
 
 /* contact-info */
-#contact-info {
+.section-contact-info {
   padding-bottom: 50px;
   margin-right: calc(50% - 50vw);
   margin-left: calc(50% - 50vw);
@@ -523,7 +523,7 @@ textarea {
 }
 
 /* information */
-#information {
+.section-information {
   background: #212121;
   display: flex;
   justify-content: space-between;
