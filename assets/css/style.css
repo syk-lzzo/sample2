@@ -78,6 +78,12 @@ button {
 .black {
   color: #000;
 }
+
+.section-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* ヘッダーCSS */
 .section-header {
   background: #44248c;
@@ -509,13 +515,15 @@ textarea {
 /* information */
 .section-information {
   background: #212121;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  margin-top: -250px;
+}
+.section-information-inner {
   display: flex;
   justify-content: space-between;
   text-align: left;
   position: relative;
-  padding-top: 300px;
-  padding-bottom: 100px;
-  margin-top: -250px;
 }
 .information {
   width: 380px;
