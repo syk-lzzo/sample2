@@ -312,7 +312,7 @@ header a {
 }
 .portfolio {
   display: grid;
-  grid-gap: 0;
+  grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
@@ -321,7 +321,7 @@ header a {
 }
 .portItem {
   width: 350px;
-  height: auto;
+  height: 100%;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -329,6 +329,7 @@ header a {
   width: 100%;
   transition-duration: 0.5s;
   transform: scale(1.1);
+  vertical-align: middle;
 }
 .portItem:hover img {
   transform: scale(1);
