@@ -36,7 +36,7 @@
 
   <body>
     <header>
-      <section id="header">
+      <section class="section-header">
         <div class="header-inner">
           <div class="logo"><img src="/assets/img/logo.png" /></div>
           <div class="nav-inner">
@@ -57,36 +57,32 @@
     <main>
       <div class="content-inner">
         <div class="layer">
-          <div class="layer" id="l1">
-            <img src="/assets/img/leaf-orange.png" alt="bg-shape" />
-          </div>
-          <div class="layer" id="l2">
-            <img src="/assets/img/dots-orange.png" alt="bg-shape" />
-          </div>
-          <div class="layer" id="l3">
-            <img src="/assets/img/leaf-cyan.png" alt="bg-shape" />
-          </div>
-          <div class="layer" id="l4">
-            <img src="/assets/img/dots-group-orange.png" alt="bg-shape" />
-          </div>
-          <div class="layer" id="l5">
-            <img src="/assets/img/leaf-pink-round.png" alt="bg-shape" />
-          </div>
-          <div class="layer" id="l6">
-            <img src="/assets/img/leaf-yellow.png" alt="bg-shape" />
-          </div>
-          <div class="layer" id="l7">
-            <img src="/assets/img/leaf-cyan-2.png" alt="bg-shape" />
-          </div>
+          <img class="l1" src="/assets/img/leaf-orange.png" alt="bg-shape" />
+          <img class="l2" src="/assets/img/dots-orange.png" alt="bg-shape" />
+          <img class="l3" src="/assets/img/leaf-cyan.png" alt="bg-shape" />
+          <img
+            class="l4"
+            src="/assets/img/dots-group-orange.png"
+            alt="bg-shape"
+          />
+          <img
+            class="l5"
+            src="/assets/img/leaf-pink-round.png"
+            alt="bg-shape"
+          />
+          <img class="l6" src="/assets/img/leaf-yellow.png" alt="bg-shape" />
+          <img class="l7" src="/assets/img/leaf-cyan-2.png" alt="bg-shape" />
         </div>
 
         <!-- Main -->
-        <section id="main-top">
-          <h1>
-            Hi! I’m<br />
-            Christoher<br />
-            UX designer
-          </h1>
+        <section class="section-main-top">
+          <div class="section-inner">
+            <h1>
+              Hi! I’m<br />
+              Christoher<br />
+              UX designer
+            </h1>
+          </div>
           <img src="/assets/img/leaf-bg.png" />
           <div class="snsIcon">
             <ul>
@@ -105,22 +101,20 @@
             </ul>
           </div>
         </section>
-        <section id="main-p">
+        <section class="section-main-p section-inner">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor<br />
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud<br />
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure<br />
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
           </p>
           <button class="mainBtn" href="">Know More</button>
         </section>
 
         <!-- Skills -->
-        <section id="skills">
+        <section class="section-skills section-inner">
           <h2>Skills</h2>
           <div class="skills-inner">
             <div class="skills">
@@ -143,7 +137,7 @@
         </section>
 
         <!-- Experience -->
-        <section id="experience">
+        <section class="section-experience section-inner">
           <h2>Experience</h2>
           <div class="experience-inner">
             <div class="experience">
@@ -168,59 +162,61 @@
         </section>
 
         <!-- Education -->
-        <section id="education">
+        <section class="section-education">
           <div class="education-bk">
             <img src="/assets/img/education-bg.png" />
           </div>
-          <h2>Education</h2>
-          <div class="education-inner">
-            <div class="education">
-              <div class="education-mark">
-                <i class="ti-medall eduMark"></i>
+          <div class="section-inner">
+            <h2>Education</h2>
+            <div class="education-inner">
+              <div class="education">
+                <div class="education-mark">
+                  <i class="ti-medall eduMark"></i>
+                </div>
+                <div class="education-box">
+                  <p class="year">2006</p>
+                  <p class="major itemTitle">Marters in UX Design</p>
+                  <p class="school">Masassusets Institute of Technology</p>
+                </div>
               </div>
-              <div class="education-box">
-                <p class="year">2006</p>
-                <p class="major itemTitle">Marters in UX Design</p>
-                <p class="school">Masassusets Institute of Technology</p>
+              <div class="education">
+                <div class="education-mark">
+                  <i class="ti-medall eduMark"></i>
+                </div>
+                <div class="education-box">
+                  <p class="year">2004</p>
+                  <p class="major itemTitle">Honours in Fine Arts</p>
+                  <p class="school">Harvard University</p>
+                </div>
               </div>
-            </div>
-            <div class="education">
-              <div class="education-mark">
-                <i class="ti-medall eduMark"></i>
+              <div class="education">
+                <div class="education-mark">
+                  <i class="ti-medall eduMark"></i>
+                </div>
+                <div class="education-box">
+                  <p class="year">2000</p>
+                  <p class="major itemTitle">Higher Secondary Certificat</p>
+                  <p class="school">Cardiff School</p>
+                </div>
               </div>
-              <div class="education-box">
-                <p class="year">2004</p>
-                <p class="major itemTitle">Honours in Fine Arts</p>
-                <p class="school">Harvard University</p>
-              </div>
-            </div>
-            <div class="education">
-              <div class="education-mark">
-                <i class="ti-medall eduMark"></i>
-              </div>
-              <div class="education-box">
-                <p class="year">2000</p>
-                <p class="major itemTitle">Higher Secondary Certificat</p>
-                <p class="school">Cardiff School</p>
-              </div>
-            </div>
-            <div class="education">
-              <div class="education-mark">
-                <i class="ti-medall eduMark"></i>
-              </div>
-              <div class="education-box">
-                <p class="year">1998</p>
-                <p class="major itemTitle">Secondary School Certificate</p>
-                <p class="school">Cardiff School</p>
+              <div class="education">
+                <div class="education-mark">
+                  <i class="ti-medall eduMark"></i>
+                </div>
+                <div class="education-box">
+                  <p class="year">1998</p>
+                  <p class="major itemTitle">Secondary School Certificate</p>
+                  <p class="school">Cardiff School</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
         <!-- Services -->
-        <section id="services">
+        <section class="section-services">
           <h2>services</h2>
-          <div class="services-inner">
+          <div class="services-inner section-inner">
             <div class="services">
               <div class="services-icon">
                 <i class="ti-palette"></i>
@@ -251,60 +247,118 @@
         </section>
 
         <!-- Portfolio -->
-        <section id="portfolio">
+        <section class="section-portfolio">
           <h2>Portfolio</h2>
-          <div class="portfolio">
+          <div class="portfolio section-inner">
             <div class="portItem firstImg">
               <img src="/assets/img/item-1.png" />
+              <div class="portBtn"><a href="">View Project</a></div>
             </div>
-            <div class="portItem"><img src="/assets/img/item-2.png" /></div>
-            <div class="portItem"><img src="/assets/img/item-3.png" /></div>
-            <div class="portItem"><img src="/assets/img/item-4.png" /></div>
-            <div class="portItem"><img src="/assets/img/item-5.png" /></div>
+            <div class="portItem">
+              <img src="/assets/img/item-2.png" />
+              <div class="portBtn"><a href="">View Project</a></div>
+            </div>
+            <div class="portItem">
+              <img src="/assets/img/item-3.png" />
+              <div class="portBtn"><a href="">View Project</a></div>
+            </div>
+            <div class="portItem">
+              <img src="/assets/img/item-4.png" />
+              <div class="portBtn"><a href="">View Project</a></div>
+            </div>
+            <div class="portItem">
+              <img src="/assets/img/item-5.png" />
+              <div class="portBtn"><a href="">View Project</a></div>
+            </div>
           </div>
         </section>
 
         <!-- Testimonials -->
-        <section id="testimonials">
-          <img class="test-bk" src="/assets/img/map.png" />
-          <img
-            class="test-bkImg test-bkImg1"
-            src="/assets/img/dots-group-v.png"
-          />
-          <img
-            class="test-bkImg test-bkImg2"
-            src="/assets/img/leaf-pink-round.png"
-          />
-          <img
-            class="test-bkImg test-bkImg3"
-            src="/assets/img/leaf-orange.png"
-          />
-          <img
-            class="test-bkImg test-bkImg4"
-            src="/assets/img/dots-group-sm.png"
-          />
-          <img class="test-bkImg test-bkImg5" src="/assets/img/leaf-cyan.png" />
-          <h2 class="bottom45">Testimonials</h2>
-          <i class="ti-quote-right i-99"></i>
-          <p class="testimoials-main-p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam,
-            <strong
-              >quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat.</strong
-            >
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.
-          </p>
-          <img class="profileIcon" src="/assets/img/client-1.png" />
-          <p class="testName">Jesica Gomez</p>
-          <p class="company">CEO.Funder</p>
+        <section class="section-testimonials">
+          <div class="test-bk-inner">
+            <img class="test-bk" src="/assets/img/map.png" />
+            <img
+              class="test-bkImg test-bkImg1"
+              src="/assets/img/dots-group-v.png"
+            />
+            <img
+              class="test-bkImg test-bkImg2"
+              src="/assets/img/leaf-pink-round.png"
+            />
+            <img
+              class="test-bkImg test-bkImg3"
+              src="/assets/img/leaf-orange.png"
+            />
+            <img
+              class="test-bkImg test-bkImg4"
+              src="/assets/img/dots-group-sm.png"
+            />
+            <img
+              class="test-bkImg test-bkImg5"
+              src="/assets/img/leaf-cyan.png"
+            />
+          </div>
+          <div class="section-inner">
+            <h2 class="bottom45">Testimonials</h2>
+            <div class="testimonial-slider">
+              <div class="test-content">
+                <i class="ti-quote-right i-99"></i>
+                <p class="testimoials-main-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                  <strong
+                    >quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.</strong
+                  >
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <img class="profileIcon" src="/assets/img/client-1.png" />
+                <p class="testName">Jesica Gomez</p>
+                <p class="company">CEO.Funder</p>
+              </div>
+              <div class="test-content">
+                <i class="ti-quote-right i-99"></i>
+                <p class="testimoials-main-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                  <strong
+                    >quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.</strong
+                  >
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <img class="profileIcon" src="/assets/img/client-1.png" />
+                <p class="testName">Jesica Gomez</p>
+                <p class="company">CEO.Funder</p>
+              </div>
+              <div class="test-content">
+                <i class="ti-quote-right i-99"></i>
+                <p class="testimoials-main-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam,
+                  <strong
+                    >quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.</strong
+                  >
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <img class="profileIcon" src="/assets/img/client-1.png" />
+                <p class="testName">Jesica Gomez</p>
+                <p class="company">CEO.Funder</p>
+              </div>
+            </div>
+          </div>
         </section>
 
         <!-- ConpanyLogo -->
         <section class="companyLogo">
-          <ul class="slider">
+          <ul class="slider section-inner">
             <li><img src="/assets/img/client-logo-1.png" /></li>
             <li><img src="/assets/img/client-logo-2.png" /></li>
             <li><img src="/assets/img/client-logo-3.png" /></li>
@@ -314,9 +368,9 @@
         </section>
 
         <!-- Blogs -->
-        <section id="blogs">
+        <section class="section-blogs">
           <h2>Blogs</h2>
-          <div class="blogs-inner">
+          <div class="blogs-inner section-inner">
             <div class="blogs">
               <img class="blogImg" src="/assets/img/post-3.jpg" />
               <div class="blogItem-inner">
@@ -359,8 +413,8 @@
           </div>
         </section>
 
-        <!-- ContectInfo -->
-        <section id="contact-info">
+        <!-- ContactInfo -->
+        <section class="section-contact-info">
           <div class="contact-bk"><img src="/assets/img/bg-dots.png" /></div>
           <h2>Contact Info</h2>
           <div class="contact-info-inner">
@@ -394,20 +448,22 @@
         </section>
 
         <!-- Information -->
-        <section id="information">
-          <div class="information">
-            <p class="itemTitle inforTitle">Email</p>
-            <p class="infor-p white">steve.fruits@email.com</p>
-          </div>
-          <div class="information inforTitle">
-            <p class="itemTitle">Phone</p>
-            <p class="infor-p white">+880 2544 658 256</p>
-          </div>
-          <div class="information inforTitle">
-            <p class="itemTitle">Addressl</p>
-            <p class="infor-p white">
-              125/A, CA Commercial Area, California, USA
-            </p>
+        <section class="section-information">
+          <div class="section-information-inner section-inner">
+            <div class="information">
+              <p class="itemTitle inforTitle">Email</p>
+              <p class="infor-p white">steve.fruits@email.com</p>
+            </div>
+            <div class="information">
+              <p class="itemTitle inforTitle">Phone</p>
+              <p class="infor-p white">+880 2544 658 256</p>
+            </div>
+            <div class="information">
+              <p class="itemTitle inforTitle">Addressl</p>
+              <p class="infor-p white">
+                125/A, CA Commercial Area, California, USA
+              </p>
+            </div>
           </div>
         </section>
       </div>
