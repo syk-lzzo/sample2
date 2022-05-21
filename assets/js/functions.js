@@ -1,6 +1,6 @@
 //スクロールすると上部に固定させるための設定を関数でまとめる
 function FixedAnime() {
-  var headerH = $("header").outerHeight(true);
+  var headerH = $("#header").outerHeight(true);
   var scroll = $(window).scrollTop();
   if (scroll >= headerH) {
     //headerの高さ以上になったら
@@ -11,24 +11,12 @@ function FixedAnime() {
   }
 }
 
-//testimonialのスライドショー
-function TestSlider() {
-  $(".testimonial-slider").slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    arrows: false,
-    adaptiveHeight: true,
-  });
-}
-
 //ロゴのスライドショー
 function LogoSlider() {
   $(".slider").slick({
     infinite: true, //スライドをループさせるかどうか。初期値はtrue。
-    slidesToShow: 5, //スライドを画面に5枚見せる
-    slidesToScroll: 1, //1回のスクロールで1枚の写真を移動して見せる
+    slidesToShow: 4, //スライドを画面に3枚見せる
+    slidesToScroll: 1, //1回のスクロールで3枚の写真を移動して見せる
     autoplay: true,
     dots: false,
     arrows: false,

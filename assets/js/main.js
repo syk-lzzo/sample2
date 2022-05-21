@@ -4,9 +4,6 @@ $(() => {
     FixedAnime();
   });
 
-  //testimonialのスライドショー
-  TestSlider();
-
   //ロゴのスライドショー
   LogoSlider();
 });
